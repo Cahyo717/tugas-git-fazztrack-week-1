@@ -1,7 +1,7 @@
 Test Case : Login
 
 Given User is on sign in page
-When user use correct email
-And user use correct password
+When user use correct account
 And user sign in
 Then user successfully signed in
+Then user directed to the login page
