@@ -1,0 +1,8 @@
+LOGIN TEST CASE :
+    1. GIVEN User to the login page
+    2. WHEN User click the login button
+    3. AND User type  in 'email / username' 
+    4. AND User type in password
+    5. AND User solved the captcha
+    6. THEN User sucessfully logged in
+    7. AND User directed to the home page
