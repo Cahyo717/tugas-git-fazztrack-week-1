@@ -1,4 +1,4 @@
-TEST FITUR LOGIN :
+LOGIN TEST:
     1. GIVEN User to the login page
     2. WHEN User click the login button
     3. AND User type  in 'email / username' 
@@ -7,7 +7,7 @@ TEST FITUR LOGIN :
     6. THEN User sucessfully logged in
     7. AND User directed to the home page
 
-LOGIN MENGGUNAKAN AKUN YANG SALAH :
+LOGIN TEST WITH INVALID ACCOUNT :
 
     1. GIVEN User go to login page
     2. WHEN User click the login button
@@ -17,7 +17,7 @@ LOGIN MENGGUNAKAN AKUN YANG SALAH :
     6. THEN User failed to login
     7. AND User directed to home page
 
-REGISTRASI AKUN :
+REGISTERED THE HOYOLAB ACCOUNT  :
     1. GIVEN User to login page
     2. WHEN User click the register button
     3. AND User type in 'username'
