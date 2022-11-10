@@ -1,0 +1,7 @@
+Test Case : Login
+
+Given User is on sign in page
+When user use correct email
+And user use correct password
+And user sign in
+Then user successfully signed in
