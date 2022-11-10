@@ -16,3 +16,14 @@ LOGIN TEST WITH INVALID ACCOUNT :
     5. AND User solved the captcha
     6. THEN User failed to login
     7. AND User directed to home page
+
+REGISTERED THE HOYOLAB ACCOUNT :
+    1. GIVEN User to login page
+    2. WHEN User click the register button
+    3. AND User type in 'username'
+    4. AND User type in 'email'
+    5. AND User type in 'password'
+    6. AND User type in 'confirmation password'
+    7. AND User type in 'verification code'
+    8. WHEN User click the register button
+    9. THEN User successfully registrated
